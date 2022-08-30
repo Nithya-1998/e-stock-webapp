@@ -10,7 +10,7 @@ import { UserToken } from '../UserToken';
 })
 
 export class UserService {
-  baseUrl = "http://35.153.50.113/:8080";
+  baseUrl = "http://35.153.50.113:8080";
   userToken : any;
   token: any;
   loggedIn = false;
