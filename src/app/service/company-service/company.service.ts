@@ -8,7 +8,7 @@ import { UserService } from '../user-service/user.service';
   providedIn: 'root',
 })
 export class CompanyService {
-  baseUrl = 'http://43.204.112.43:8080';
+  baseUrl = 'http://35.153.50.113:8080';
   'company': Company;
   constructor(
     private httpClient: HttpClient,
